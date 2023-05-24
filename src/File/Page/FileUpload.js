@@ -18,10 +18,10 @@ const FileUpload = (props) => {
   };
 
   return (
-    <div className="container mx-auto bg-white form-control">
+    <div className="container mx-auto bg-white mt-5 form-control">
       <input
         type="text"
-        className="my-4 form-control d-block container w-25"
+        className="mt-5 form-control d-block container w-25"
         placeholder="Enter file name"
         name="fileName"
         value={props.state.fileName}

@@ -9,6 +9,7 @@ import FileList from "./File/Page/FileList";
 import FileUpload from "./File/Page/FileUpload";
 import Navbar from "./Shared/Navbar";
 import Home from "./Shared/Home";
+import Footer from "./Shared/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -100,6 +101,7 @@ class App extends Component {
 
             <Route path="*" exact element={<Home />} />
           </Routes>
+            <Footer />
         </BrowserRouter>
       </React.Fragment>
     );
